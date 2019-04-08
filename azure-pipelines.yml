@@ -20,6 +20,7 @@ steps:
     npm install -g @angular/cli
     npm install
     ng build --prod
+    dir /s
   displayName: 'npm install and build'
 
 - task: PublishPipelineArtifact@0
