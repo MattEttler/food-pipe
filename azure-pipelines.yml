@@ -26,4 +26,4 @@ steps:
 - task: PublishPipelineArtifact@0
   inputs:
     artifactName: 'o97'
-    targetPath: 'src/observatory/dist'
+    targetPath: 'observatory/dist'
